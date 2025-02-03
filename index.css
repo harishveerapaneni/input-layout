@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main {
+    margin: 5% 25%;
+    padding: 5%;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+}
+.main .left p{
+    font-size: x-large;
+}
+.main .left input{
+    width: 20rem;
+    height: 3rem;
+    margin: 5px 0px 20px 0px;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.main .left #special{
+    color: red;
+    border: 1px solid red;
+    margin-bottom: 5px;
+}
+.main .left span{
+    color: red;
+    display: block;
+    margin-bottom: 3rem;
+
+}
+.main .left button{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 0px 15px;
+    margin: 5px 0px 20px 0px;
+
+    border: 1px solid black;
+}
+.main .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;
+    text-align: center; */
+    margin-left: auto ;
+}
+.right button{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: white;
+    align-self: center;
+    margin: 15px 0px;
+    border-left-color: 3px solid black;
+    border-right-color: 3px solid #e3e3e3;
+    font-size: x-large;
+  
+}
+.main .right h2 {
+    margin: 1rem 0px;
+}
+.main .right .display{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 15rem;
+    background-color: #b5b4b1;
+    padding: 5% 5% 40% 5%;
+    border-radius: 10px;
+
+}
+.main .right .display p{
+    margin: 10px 0px;
+}
+.main .right .display #cancel{
+    text-decoration: line-through;
+    color: #d6d6d6;
+
+}
